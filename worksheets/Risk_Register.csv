@@ -1,0 +1,5 @@
+Finding ID,Module,Scenario,Asset,Entry point,Trust boundary,Likelihood (1-5),Impact (1-5),Risk score,Severity,Control recommendation,Retest evidence,Owner,Status
+F-001,2,Retrieval instruction injection,Instruction integrity,Retrieved source,Untrusted document to authoritative instructions,,,,,,,Open
+F-002,3,Restricted marker disclosure,Training data isolation,User request,Untrusted request to protected data,,,,,,,Open
+F-003,3,Excessive simulated tool privilege,Approval workflow,Tool operation,Student permission to instructor action,,,,,,,Open
+F-004,3,Unsafe output rendering,Report display,Source excerpt,Untrusted markup to rendered output,,,,,,,Open

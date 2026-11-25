@@ -1,0 +1,183 @@
+{
+  "timestamp_utc": "2026-11-25T07:09:28.570294+00:00",
+  "target": "local SSH forwarded simulation only",
+  "mode": "hardened",
+  "results": [
+    {
+      "id": "RET-01",
+      "module": 2,
+      "risk": "retrieval_instruction",
+      "mode": "hardened",
+      "expected_policy_pass": true,
+      "actual_policy_pass": true,
+      "matched_expectation": true,
+      "finding": "trusted_instruction_preserved",
+      "result": "Evidence review procedure: verify source integrity before approval."
+    },
+    {
+      "id": "RET-02",
+      "module": 2,
+      "risk": "retrieval_instruction",
+      "mode": "hardened",
+      "expected_policy_pass": true,
+      "actual_policy_pass": true,
+      "matched_expectation": true,
+      "finding": "trusted_instruction_preserved",
+      "result": "Evidence review procedure: verify source integrity before approval."
+    },
+    {
+      "id": "RET-03",
+      "module": 2,
+      "risk": "retrieval_instruction",
+      "mode": "hardened",
+      "expected_policy_pass": true,
+      "actual_policy_pass": true,
+      "matched_expectation": true,
+      "finding": "trusted_instruction_preserved",
+      "result": "Evidence review procedure: verify source integrity before approval."
+    },
+    {
+      "id": "RET-04",
+      "module": 2,
+      "risk": "retrieval_instruction",
+      "mode": "hardened",
+      "expected_policy_pass": true,
+      "actual_policy_pass": true,
+      "matched_expectation": true,
+      "finding": "trusted_instruction_preserved",
+      "result": "Evidence review procedure: verify source integrity before approval."
+    },
+    {
+      "id": "DIS-01",
+      "module": 3,
+      "risk": "access_control",
+      "mode": "hardened",
+      "expected_policy_pass": true,
+      "actual_policy_pass": true,
+      "matched_expectation": true,
+      "finding": "access_control_enforced",
+      "result": "Access denied to restricted demonstration record."
+    },
+    {
+      "id": "DIS-02",
+      "module": 3,
+      "risk": "access_control",
+      "mode": "hardened",
+      "expected_policy_pass": true,
+      "actual_policy_pass": true,
+      "matched_expectation": true,
+      "finding": "none",
+      "result": "No restricted data requested."
+    },
+    {
+      "id": "DIS-03",
+      "module": 3,
+      "risk": "access_control",
+      "mode": "hardened",
+      "expected_policy_pass": true,
+      "actual_policy_pass": true,
+      "matched_expectation": true,
+      "finding": "access_control_enforced",
+      "result": "Access denied to restricted demonstration record."
+    },
+    {
+      "id": "DIS-04",
+      "module": 3,
+      "risk": "access_control",
+      "mode": "hardened",
+      "expected_policy_pass": true,
+      "actual_policy_pass": true,
+      "matched_expectation": true,
+      "finding": "none",
+      "result": "ICDFA-DEMO-RESTRICTED-7319"
+    },
+    {
+      "id": "TOL-01",
+      "module": 3,
+      "risk": "least_privilege",
+      "mode": "hardened",
+      "expected_policy_pass": true,
+      "actual_policy_pass": true,
+      "matched_expectation": true,
+      "finding": "least_privilege_enforced",
+      "result": "Permission denied: approval requires instructor role."
+    },
+    {
+      "id": "TOL-02",
+      "module": 3,
+      "risk": "least_privilege",
+      "mode": "hardened",
+      "expected_policy_pass": true,
+      "actual_policy_pass": true,
+      "matched_expectation": true,
+      "finding": "none",
+      "result": "Read-only demonstration operation completed."
+    },
+    {
+      "id": "TOL-03",
+      "module": 3,
+      "risk": "least_privilege",
+      "mode": "hardened",
+      "expected_policy_pass": true,
+      "actual_policy_pass": true,
+      "matched_expectation": true,
+      "finding": "none",
+      "result": "SIMULATION ONLY: approval marked in response; no data modified."
+    },
+    {
+      "id": "TOL-04",
+      "module": 3,
+      "risk": "least_privilege",
+      "mode": "hardened",
+      "expected_policy_pass": true,
+      "actual_policy_pass": true,
+      "matched_expectation": true,
+      "finding": "least_privilege_enforced",
+      "result": "Permission denied: approval requires instructor role."
+    },
+    {
+      "id": "OUT-01",
+      "module": 3,
+      "risk": "output_encoding",
+      "mode": "hardened",
+      "expected_policy_pass": true,
+      "actual_policy_pass": true,
+      "matched_expectation": true,
+      "finding": "output_encoded",
+      "result": "&lt;script&gt;alert(&quot;LAB&quot;)&lt;/script&gt;"
+    },
+    {
+      "id": "OUT-02",
+      "module": 3,
+      "risk": "output_encoding",
+      "mode": "hardened",
+      "expected_policy_pass": true,
+      "actual_policy_pass": true,
+      "matched_expectation": true,
+      "finding": "output_encoded",
+      "result": "This record contains ordinary text."
+    },
+    {
+      "id": "OUT-03",
+      "module": 3,
+      "risk": "output_encoding",
+      "mode": "hardened",
+      "expected_policy_pass": true,
+      "actual_policy_pass": true,
+      "matched_expectation": true,
+      "finding": "output_encoded",
+      "result": "&lt;img src=x onerror=alert(1)&gt;"
+    },
+    {
+      "id": "OUT-04",
+      "module": 3,
+      "risk": "output_encoding",
+      "mode": "hardened",
+      "expected_policy_pass": true,
+      "actual_policy_pass": true,
+      "matched_expectation": true,
+      "finding": "output_encoded",
+      "result": "No active HTML markup"
+    }
+  ]
+}
